@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-ep%@w)h93s(^2i%4o_e&5gy33i3f=9wbdj-hjw!(fl_d+0w8kp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "tartan-rate-backend.ue.r.appspot.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition

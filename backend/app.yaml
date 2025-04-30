@@ -3,7 +3,7 @@ runtime: python39
 entrypoint: gunicorn tartanrate.wsgi
 
 env_variables:
-  DJANGO_SETTINGS_MODULE: backend.settings
+  DJANGO_SETTINGS_MODULE: tartanrate.settings
   SECRET_KEY: ev42ccgv!17oh5v18v_v8r9h8a#@g-d)=_wq&6(91t!xnxapv&
   ALLOWED_HOSTS: "*"
 
