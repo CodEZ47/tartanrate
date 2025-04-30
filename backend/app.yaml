@@ -6,6 +6,12 @@ env_variables:
   DJANGO_SETTINGS_MODULE: tartanrate.settings
   SECRET_KEY: ev42ccgv!17oh5v18v_v8r9h8a#@g-d)=_wq&6(91t!xnxapv&
   ALLOWED_HOSTS: "*"
+  DB_NAME: tartanrate_db
+  DB_USER: django_user
+  DB_PASSWORD: db M:(.vK5fxhV<)bz=
+  DB_HOST: 34.73.43.57
+  DB_PORT: "5432"
+  DEBUG: "True"
 
 automatic_scaling:
   min_instances: 1
