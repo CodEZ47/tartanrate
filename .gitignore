@@ -4,3 +4,7 @@ node_modules/
 # Ignore package manager files
 /package-lock.json
 /package.json
+
+# Ignore environment variables
+.env
+.env.local
