@@ -7,3 +7,4 @@ const api = axios.create({
 export default api;
 
 export const fetcher = (url: string) => api.get(url).then(res => res.data);
+// add post helpers
