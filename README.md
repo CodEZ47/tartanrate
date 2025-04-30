@@ -37,21 +37,21 @@ A full-stack web application that allows university students to add, review, and
 - **Tooling:** React Hook Form, Lucide Icons, React Hot Toast
 
 
-### 🔹 Frontend (Vercel)
+### Frontend (Vercel)
 
 - Deployed using GitHub integration for continuous deployment
 - Environment variables used for secure backend connection
 - Publicly accessible at: (https://tartanrate.vercel.app/)
 
-### 🔹 Backend (App Engine)
+### Backend (App Engine)
 
-- Deployed to App Engine (Standard Environment)
+- Deployed to App Engine (Standard Environment) in GCP
 - Static file issues were somewhat handled
 - Database was configured via Google Cloud SQL but could not be fully connected
 
 ---
 
-## 🧪 What Went Well
+##  What Went Well
 
 - Project architecture and full-stack integration structured cleanly
 - Modern, responsive UI using TailwindCSS
@@ -60,7 +60,7 @@ A full-stack web application that allows university students to add, review, and
 
 ---
 
-## ⚠️ Challenges and Trade-offs
+##  Challenges and Trade-offs
 
 - Unable to fully verify CRUD operations in production due to PostgreSQL connection errors
 - Admin panel static files (CSS/JS) not served initially without tweaks
@@ -69,7 +69,7 @@ A full-stack web application that allows university students to add, review, and
 
 ---
 
-## 🌱 If I Had More Time...
+##  If I Had More Time...
 
 - Implement user authentication (JWT, session-based, or social login)
 - CI/CD setup with GitHub Actions for both frontend and backend
@@ -82,7 +82,7 @@ A full-stack web application that allows university students to add, review, and
 
 ---
 
-## 📈 Future Plans
+##  Future Plans
 
 - Enable authenticated users to post and bookmark courses
 - Allow professors to manage and recommend resources
@@ -91,7 +91,7 @@ A full-stack web application that allows university students to add, review, and
 
 ---
 
-## ⚙️ Local Development
+##  Local Development
 
 ```bash
 # Frontend
